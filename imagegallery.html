@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles-imagegallery.css">
+    <link rel="shortcut icon" href="images/snoop-dogg-logo-4BC59EE9BB-seeklogo.com.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+		<a href="index.html"><img src="images/snooplogo.jpg" alt="Get Your Head In The Clouds and Beyond" title="Get Your Head In The Clouds and Beyond"></a>
+        <button id="displayMenu" data-visible="false"></button>
+        
+        <h2>Snoop Doggy Dog Image Galary</h2>
+    </header>
+    <main>
+        <!-- Photo Grid -->
+<div class="row"> 
+    <div class="column">
+        <img src="images/slideshowimages/1.jpg" alt="">
+        <img src="images/slideshowimages/2.jpg" alt="">
+        <img src="iimages/slideshowimages/3.jpg" alt="">
+        <img src="images/slideshowimages/4.jpg" alt="">
+        <img src="images/slideshowimages/5.jpg" alt="">
+    </div>
+    
+    <div class="column">
+        <img src="images/slideshowimages/6.jpg" alt="">
+        <img src="images/slideshowimages/7.jpg" alt="">
+        <img src="images/slideshowimages/8.jpg" alt="">
+        <img src="images/slideshowimages/10.jpg" alt="">
+        <img src="images/slideshowimages/10.jpg" alt="">
+
+    </div> 
+     
+    <div class="column">
+        <img src="images/slideshowimages/11.jpg" alt="">
+        <img src="images/slideshowimages/12.jpg" alt="">
+        <img src="images/slideshowimages/13.jpg" alt="">
+        <img src="images/slideshowimages/14.jpg" alt="">
+        <img src="images/slideshowimages/15.jpg" alt="">
+
+    </div>
+    
+    <div class="column">
+        <img src="images/slideshowimages/16.jpg" alt="">
+        <img src="images/slideshowimages/17.jpg" alt="">
+        <img src="images/slideshowimages/18.jpg" alt="">
+        <img src="images/slideshowimages/19.jpg" alt="">
+        <img src="images/slideshowimages/20.jpg" alt="">
+    </div>
+  </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyright"></span>Nathan Innerfield</p>
+    </footer>
+    
+     <!-- Javascript - Get Current Year for the Footer -->
+     <script>
+        window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
+    
+</body>
+</html>
